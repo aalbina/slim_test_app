@@ -17,11 +17,11 @@ return [
         ],
 
         'db' => [
-            'driver' => 'pgsql',
-            'host' => 'ec2-54-221-253-117.compute-1.amazonaws.com',
-            'username' => 'imtynijwmtxgae',
-            'password' => 'fXpToMWU6O960nyKacF_1vvGKS',
-            'database' => 'dceklmad3kgouk',
+            'driver' => 'mysql',
+            'host' => 'localhost',
+            'username' => 'root',
+            'password' => '123qwe',
+            'database' => 'slim',
             'charset'   => 'utf8',
             'collation' => 'utf8_general_ci',
             'prefix'    => '',
